@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Stardew Valley Perfection Randomizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website to help create extra challenges in your Stardew valley Perfection Journey by randomizing the order you complete goals.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+You must make an account in order to use the website (login is tied to google OAuth). Once you are logged in, you have five "save slots" to create, edit, and delete your randomized perfection runs. 
 
-### `npm start`
+### Starting a New Save
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once you start a new save you will be presented with a variety of options. After you have set up your initial configuration, you will be prompted to preview your goals where it will give you an opportunity to enable/disable goals from the master list. Additionally, you will be able to create your own custom goals at this time. Once you are satisfied with your configuration, press the save configuration button to finish creating your save. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Using the Randomizer
 
-### `npm test`
+Click the "Generate a New Goal" to generate a goal. Once you have completed that goal, click the "Complete Goal" button and it will be added to your counter and progress percentage. Once all goals have been completed, a "credit sequence" will start which will show you the total time it took for you to complete your save, as well as how long each individual task took. Additional features like being able to export this summary may or may not be addeed at a later date. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This idea was 100% inspired by [ArgonMatrix ](https://www.youtube.com/@ArgonMatrix) on YouTube who created the original version of this Randomizer as a [Google Sheet/Doc](https://docs.google.com/document/d/1eu1PWh9xQ46SOiqoCPrO1E9AzS56V-u0KHSYXiY568s/edit). You should also check out his livestreams of his randomizer playthrough. I thought this idea was worth turning into a fully fledged website (and to make it easier to use for people who may or may not be familiar with Google sheets). Plus it opened up opportunities to add other features like a credit sequence after you complete all goals which sums up your randomizer experience (i.e. how long it took to complete each goal). Because I knew a lot of ArgonMatrix's watchers had already started runs using the original Google Sheet, I made it a goal to be able to import the CSV files from runs people may have already started (of course this will impact their summary at the end, but otherwise they don't have to start their randomizer over). 
