@@ -1,0 +1,4 @@
+.save-slot-container {
+    display: flex;
+    justify-content: space-around;
+}
