@@ -1,0 +1,42 @@
+.header {
+    background-color: #F28C28;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    background-color: #F28C28;
+    position: absolute;
+    right: 0;
+
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    /* flex: 1;
+    height: fit-content;
+    background-color: #F28C28; */
+    height: 79px;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    /* margin-left: 40%; */
+}
+
+.menu-btn {
+    border: none;
+    background-color: #F28C28;
+}
+
+.menu-btn h2 {
+    font-weight: bold;
+}
+
+
+
+
+
