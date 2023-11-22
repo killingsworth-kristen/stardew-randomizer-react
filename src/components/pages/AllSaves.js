@@ -1,7 +1,7 @@
 import React from "react";
 import './../style/AllSaves.css';
 
-import EditDeleteSaveBtns from "../EditDeleteSaveBtns";
+import EditDeletePlayBtns from "../EditDeletePlayBtns";
 import NewSaveBtn from "../NewSaveBtn";
 
 export default function AllSaves () {
@@ -17,7 +17,7 @@ export default function AllSaves () {
                         <div className="col">
                             <h3>50%</h3>
                         </div>
-                        <EditDeleteSaveBtns />
+                        <EditDeletePlayBtns />
                     </div>
                     <div className="row" id="row-2">
                         <div className="col">

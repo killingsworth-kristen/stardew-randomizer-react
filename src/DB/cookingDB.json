@@ -1,0 +1,1246 @@
+[
+    {
+        "task": "Cook a Fried Egg",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook an Omelet",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 10
+            }
+        ]
+    },
+    {
+        "task": "Cook a Salad",
+        "prereq": [
+            {
+                "task": "Befriend Emily",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Emily 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook Cheese Cauliflower",
+        "prereq": [
+            {
+                "task": "Befriend Pam",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Pam 3 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Craft a Cheese Press",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 28
+            }
+        ] 
+    },
+    {
+        "task": "Cook Baked Fish",
+        "prereq": [
+            {
+                "task": "Catch a Sunfish"
+            },
+            {
+                "task": "Catch a Bream"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook Parsnip Soup",
+        "prereq": [
+            {
+                "task": "Befriend Caroline",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Caroline 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 13
+            }
+        ]
+    },
+    {
+        "task": "Cook Vegatable Medley",
+        "prereq": [
+            {
+                "task": "Befriend Caroline",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Caroline 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 28
+            }
+        ]
+    },
+    {
+        "task": "Cook a Complete Breakfast",
+        "prereq": [
+            {
+                "task": "Cook Pancakes",
+                "difficulty": "easy"
+            },
+            {
+                "task": "Cook a Fried Egg",
+                "difficulty": "easy"
+            },
+            {
+                "task": "Cook Hashbrowns",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook Fried Calamari",
+        "prereq": [
+            {
+                "task": "Befriend Jodi",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Jodi 3 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch a Squid"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook a Strange Bun",
+        "prereq": [
+            {
+                "task": "Befriend Shane",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Shane 7 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch a Periwinkle"
+            },
+            {
+                "task": "Ship a Void Mayonaise",
+                "difficulty": "easy"
+            },
+            {
+                "task": "Craft a Mayonnaise Machine",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 3
+            },
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook a Lucky Lunch",
+        "prereq": [
+            {
+                "task": "Catch a Sea Cucumber"
+            },            
+            {
+                "task": "Cook a Tortilla",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 10
+            }
+        ]
+    },
+    {
+        "task": "Cook Fried Mushroom",
+        "prereq": [
+            {
+                "task": "Befriend Demetrius"
+            },
+            {
+                "task": "Demetrius 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook a Pizza",
+        "prereq": [
+            {
+                "task": "Craft a Cheese Press",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 17
+            }
+        ]
+    },
+    {
+        "task": "Cook Bean Hotpot",
+        "prereq": [
+            {
+                "task": "Befriend Clint",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Clint 7 Hearts",
+                "type": "progressive-hearts"
+            }
+            
+        ],
+        "xp": [
+            {
+                "farming": 18
+            }
+        ]
+    },
+    {
+        "task": "Cook Glazed Yams",
+        "prereq": [
+            {
+                "task": "Ship a Yam",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 22
+            }
+        ]
+    },
+    {
+        "task": "Cook Carp Surprise",
+        "prereq": [
+            {
+                "task": "Catch a Carp"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 60
+            }
+        ]
+    },
+    {
+        "task": "Cook Hashbrowns",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook Pancakes",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook Salmon Dinner",
+        "prereq": [
+            {
+                "task": "Befriend Gus",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Gus 3 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch a Salmon"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 38
+            }
+        ]
+    },
+    {
+        "task": "Cook a Fish Taco",
+        "prereq": [
+            {
+                "task": "Befriend Linus",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Linus 7 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Cook a Tortilla",
+                "difficulty": "easy"
+            },
+            {
+                "task": "Craft a Mayonnaise Machine",
+                "difficulty": "easy"
+            },
+            {
+                "task": "Catch a Tuna"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 33
+            }
+        ]
+    },
+    {
+        "task": "Cook a Crispy Bass",
+        "prereq": [
+            {
+                "task": "Befriend Kent",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Kent 3 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch a Largemouth Bass"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook Pepper Poppers",
+        "prereq":[
+            {
+                "task": "Befriend Shane",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Shane 3 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Craft a Cheese Press",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook Bread",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Cook Tom Kha Soup",
+        "prereq": [
+            {
+                "task": "Befriend Sandy",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Sandy 7 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch a Shrimp",
+                "difficulty": null
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook Trout Soup",
+        "prereq": [
+            {
+                "task": "Catch a Rainbow Trout"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 3
+            }
+        ]
+    },
+    {
+        "task": "Cook a Chocolate Cake",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook a Pink Cake",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 32
+            }
+        ]
+    },
+    {
+        "task": "Cook a Rhubarb Pie",
+        "prereq":[
+            {
+                "task": "Befriend Marnie",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Marnie 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 26
+            }
+        ]
+    },
+    {
+        "task": "Cook a Cookie",
+        "prereq":[
+            {
+                "task": "Befriend Evelyn",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Evelyn 4 hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook Spaghetti",
+        "prereq": [
+            {
+                "task": "Befriend Lewis",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Lewis 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Cook a Fried Eel",
+        "prereq": [
+            {
+                "task": "Befriend George",
+                "type": "all-hearts"
+            },
+            {
+                "task": "George 3 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch an Eel"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook a Spicy Eel",
+        "prereq": [
+            {
+                "task": "Befriend George",
+                "type": "all-hearts"
+            },
+            {
+                "task": "George 7 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch an Eel"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 9
+            }
+        ]
+    },
+    {
+        "task": "Cook Sashimi",
+        "prereq": [
+            {
+                "task": "Befriend Linus",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Linus 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook a Maki Roll",
+        "prereq": [
+            {
+                "task": "Catch a Seaweed"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook a Tortilla",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 10
+            }
+        ]
+    },
+    {
+        "task": "Cook a Red Plate",
+        "prereq": [
+            {
+                "task": "Befriend Emily",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Emily 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 33
+            }
+        ]
+    },
+    {
+        "task": "Cook Eggplant Parmesean",
+        "prereq": [
+            {
+                "task": "Befriend Lewis",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Lewis 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 24
+            }
+        ]
+    },
+    {
+        "task": "Cook Rice Pudding",
+        "prereq": [
+            {
+                "task": "Befriend Evelyn",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Evelyn 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook Ice Cream",
+        "prereq": [
+            {
+                "task": "Befriend Jodi",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Jodi 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook a Blueberry tart",
+        "prereq": [
+            {
+                "task": "Befriend Pierre",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Pierre 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 15
+            }
+        ]
+    },
+    {
+        "task": "Cook Autumn's Bounty",
+        "prereq": [
+            {
+                "task": "Befriend Demetrius",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Demetrius 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 53
+            }
+        ]
+    },
+    {
+        "task": "Coook Pumpkin Soup",
+        "prereq": [
+            {
+                "task": "Befriend Robin",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Robin 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 56
+            }
+        ]
+    },
+    {
+        "task": "Cook a Super Meal",
+        "prereq": [
+            {
+                "task": "Befriend Kent",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Kent 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 50
+            }
+        ]
+    },
+    {
+        "task": "Cook Cranberry Sause",
+        "prereq": [
+            {
+                "task": "Befriend Gus",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Gus 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook Stuffing",
+        "prereq": [
+            {
+                "task": "Befriend Pam",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Pam 7 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Cook Bread"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 14
+            },
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Cook a Farmer's Lunch",
+        "prereq": [
+            {
+                "task": "Cook an Omelet"
+            },
+            {
+                "task": "farming 3",
+                "type": "progressive-xp"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 8
+            }
+        ]
+    },
+    {
+        "task": "Cook a Survival Burger",
+        "prereq": [
+            {
+                "task": "cook Bread"
+            },
+            {
+                "task": "foraging 2",
+                "type": "progressive-xp"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Cook a Dish O' The Sea",
+        "prereq": [
+            {
+                "task": "Cook Hashbrowns"
+            },
+            {
+                "task": "fishing 3",
+                "type": "progressive-xp"
+            },
+            {
+                "task": "Catch a Sardine"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 25
+            }
+        ]
+    },
+    {
+        "task": "Cook a Miner's Treat",
+        "prereq": [
+            {
+                "task": "Mining 3",
+                "type": "progressive-xp"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook a Root's Platter",
+        "prereq": [
+            {
+                "task": "combat 3",
+                "type": "progressive-xp"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook Triple Shot Espresso",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Cook Seafoam Pudding",
+        "prereq": [
+            {
+                "task": "Catch a Flounder"
+            },
+            {
+                "task": "Catch a Midnight Carp"
+            },
+            {
+                "task": "fishing 9",
+                "type": "progressive-xp"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 15
+            },
+            {
+                "combat": 15
+            }
+        ]
+    },
+    {
+        "task": "Cook Algae Soup",
+        "prereq": [ 
+            {
+                "task": "Befriend Clint",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Clint 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 12
+            }
+        ]
+    },
+    {
+        "task": "Cook Pale Broth",
+        "prereq": [
+            {
+                "task": "Befriend Marnie",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Marnie 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 6
+            }
+        ]
+    },
+    {
+        "task": "Cook Plum Pudding",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook Artichoke Dip",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 27
+            }
+        ]
+    },
+    {
+        "task": "Cook Stir Fry",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            },
+            {
+                "farming": 17
+            }
+        ]
+    },
+    {
+        "task": "Cook Roasted hazelnuts",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 21
+            }
+        ]
+    },
+    {
+        "task": "Cook a Pumpkin Pie",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 36
+            }
+        ]
+    },
+    {
+        "task": "Cook a Radish Salad",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 15
+            }
+        ]
+    },
+    {
+        "task": "Cook a Fruit Salad",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 37
+            }
+        ]
+    },
+    {
+        "task": "Cook a Blackberry Cobbler",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook a Cranberry Candy",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 14
+            }
+        ]
+    },
+    {
+        "task": "Cook Bruschetta",
+        "prereq": [
+            {
+                "task": "Cook Bread"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Cook Coleslaw",
+        "prereq": [
+            {
+                "task": "Craft a Mayonnaise Machine"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 33
+            }
+        ]
+    },
+    {
+        "task": "Cook Fiddlehead Risotto",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            },
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Cook a Poppyseed Muffin",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 20
+            }
+        ]
+    },
+    {
+        "task": "Cook Chowder",
+        "prereq": [
+            {
+                "task": "Befriend Willy",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Willy 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 7
+            },
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook Fish Stew",
+        "prereq": [
+            {
+                "task": "Befriend Willy",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Willy 7 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch a Crayfish"
+            },
+            {
+                "task": "Catch a Periwinkle"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 15
+            },
+            {
+                "foraging": 7
+            },
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Cook Escargot",
+        "prereq": [
+            {
+                "task": "Befriend Willy",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Willy 5 Hearts",
+                "type": "progressive-hearts"
+            },
+            {
+                "task": "Catch a Snail"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 5
+            },
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Cook Lobster Bisque",
+        "prereq": [
+            {
+                "task": "Catch a Lobster"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 5
+            },
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Cook a Maple bar",
+        "prereq": [
+            {
+                "task": "Craft a Tapper",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook Crab Cakes",
+        "prereq": [
+            {
+                "task": "Catch a Crab"
+            },
+            {
+                "task": "Slay 60 Rock Crabs",
+                "type": "slay-goals-progression-disallowed"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            },
+            {
+                "fishing": 5
+            },
+            {
+                "combat": 4
+            }
+        ]
+    },
+    {
+        "task": "Cook Shrimp Cocktail",
+        "prereq": [
+            {
+                "task": "Catch a Shrimp"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 5
+            },
+            {
+                "foraging": 7
+            },
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Cook Ginger Ale",
+        "prereq": [
+            {
+                "task": "Complete Community Center/Joja"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook Banana Pudding",
+        "prereq": [
+            {
+                "task": "Complete Community Center/Joja"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook Mango Sticky Rice",
+        "prereq": [
+            {
+                "task": "Befriend Leo",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Leo 7 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Cook Poi",
+        "prereq": [
+            {
+                "task": "Befriend Leo",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Leo 3 Hearts",
+                "type": "progressive-hearts"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 64
+            }
+        ]
+    },
+    {
+        "task": "Cook Tropical Curry",
+        "prereq": [
+            {
+                "task": "Complete Community Center/Joja"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Cook Squid Ink Ravioli",
+        "prereq": [
+            {
+                "task": "combat 9"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 15
+            },
+            {
+                "combat": 15
+            },
+            {
+                "farming": 12
+            }
+        ]
+    }
+]
