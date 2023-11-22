@@ -17,7 +17,7 @@ export default function AllSaves () {
                         <div className="col">
                             <h3>50%</h3>
                         </div>
-                        <EditDeletePlayBtns />
+                        <EditDeletePlayBtns saveSlotNum={1}/>
                     </div>
                     <div className="row" id="row-2">
                         <div className="col">
@@ -30,7 +30,9 @@ export default function AllSaves () {
                                 <h3>Empty</h3>
                             </div>
                         </div>
-                        <NewSaveBtn />
+                        {/* <NewSaveBtn /> */}
+                        <EditDeletePlayBtns saveSlotNum={2}/>
+
                     </div>
                     <div className="row" id="row-3">
                     <div className="col">
@@ -43,7 +45,8 @@ export default function AllSaves () {
                                 <h3>Empty</h3>
                             </div>
                         </div>
-                        <NewSaveBtn />
+                        {/* <NewSaveBtn /> */}
+                        <EditDeletePlayBtns saveSlotNum={3}/>
                     </div>
                 </div>
             </div>
