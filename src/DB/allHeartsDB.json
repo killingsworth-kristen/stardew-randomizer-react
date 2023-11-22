@@ -1,0 +1,235 @@
+[
+    {
+        "task": "Befriend Alex",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Elliott",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Harvey",
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Sam",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Sebastian",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Shane",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Abigail",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Emily",
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Haley",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Leah",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Maru",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Penny",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": true
+    },
+    {
+        "task": "Befriend Caroline",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Clint",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Demetrius",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Dwarf",
+        "prereq": [
+            {
+                "task": "Donate Dwarf Scroll 1",
+                "type": "individual-museum"
+            },
+            {
+                "task": "Donate Dwarf Scroll 2",
+                "type": "individual-museum"
+            },
+            {
+                "task": "Donate Dwarf Scroll 3",
+                "type": "individual-museum"
+            },
+            {
+                "task": "Donate Dwarf Scroll 4",
+                "type": "individual-museum"
+            },
+            {
+                "task": "Upgrade Pickaxe 2",
+                "type": "non-required-QOL"
+            }
+        ],
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Evelyn",
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend George",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Gus",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Jas",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Jodi",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Kent",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Krobus",
+        "prereq": [
+            {
+                "task": "Donate 60 items to museum"
+            }
+        ],
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Leo",
+        "prereq": [
+            {
+                "task": "Complete Community Center/Joja"
+            }
+        ],
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Lewis",
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Linus",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Marnie",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Pam",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Pierre",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Robin",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Sandy",
+        "prereq": [
+            {
+                "task": "Unlock Calico Desert"
+            }
+        ],
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Vincent",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Willy",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    },
+    {
+        "task": "Befriend Wizard",
+        "prereq": null,
+        "type": "all-hearts",
+        "marriage-candidate": false
+    }
+]
