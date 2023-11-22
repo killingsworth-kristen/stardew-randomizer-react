@@ -12,7 +12,7 @@ export default function Header () {
                 </button>
                 <div className="collapse" id="collapseExample">
                     <div className="menu-dropdown">
-                        <a><h3>Logout</h3></a>
+                        {/* <a><h3>Logout</h3></a> */}
                         <a><h3>Saves</h3></a>
                         <a><h3>Help</h3></a>
                         <a><h3>About</h3></a>

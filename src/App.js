@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 
 // Import Components
 import Header from './components/Header';
-import Login from  './components/pages/Login';
 import AllSaves from './components/pages/AllSaves'
 import NewSaveForm from './components/pages/NewSaveForm';
 import NewSavePreview from './components/pages/NewSavePreview';
@@ -16,7 +15,6 @@ function App() {
       <Router>
           <Header />
           <Routes>
-            <Route path='/login' element={<Login />}/>
             <Route path='/saves' element={<AllSaves />}/>
             <Route path='/new-save' element={<NewSaveForm />}/>
             <Route path='/new-save/preview' element={<NewSavePreview />}/>

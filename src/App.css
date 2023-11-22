@@ -1,3 +1,9 @@
+:root {
+  --frame-edge: #d47f4b;
+  --frame-background: #f9d894;
+  --frame-text: #763812;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +20,14 @@
   src: local("AmaticSC-Regular"),url("./fonts/AmaticSC-Regular.ttf") format(truetype);
 }
 
+body {
+  min-height: 100vh;
+}
+
+h3 {
+  margin: 0;
+}
+
 .App {
   text-align: center;
   font-family: "AmaticSC";
@@ -22,3 +36,5 @@
 .hidden {
   display: none;
 }
+
+

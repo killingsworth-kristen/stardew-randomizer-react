@@ -1,5 +1,6 @@
 .header {
     background-color: #F28C28;
+    /* background-color: var(--frame-edge); */
     color: black;
     display: flex;
     justify-content: center;
@@ -7,6 +8,7 @@
 
 .nav {
     background-color: #F28C28;
+    /* background-color: var(--frame-edge); */
     position: absolute;
     right: 0;
 
@@ -30,6 +32,7 @@
 .menu-btn {
     border: none;
     background-color: #F28C28;
+    /* background-color: var(--frame-edge); */
 }
 
 .menu-btn h2 {

@@ -1,4 +1,35 @@
-.save-slot-container {
+.all-saves-title {
+    margin-top: 3rem;
+}
+
+.grid-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    flex: 1;
+}
+
+.row {
+    margin: 3rem 0;
+    padding: 0.5rem;
+    background-color: var(--frame-background);
+    border: 10px solid var(--frame-edge);
+    box-shadow: 10px 10px 10px var(--frame-text);
+}
+
+.new-save-btn-text {
+    padding: 0.25rem;
+    margin: 0;
+}
+
+.edit-delete-btn {
+    margin: 0 4px;
+}
+
+.edit-delete-btn-icon {
+    width: 36px;
 }
