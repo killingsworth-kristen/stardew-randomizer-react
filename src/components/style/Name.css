@@ -1,0 +1,12 @@
+#save-name-btn {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #F28C28;
+    font-size: 28px;
+}
+
+#name {
+    text-align: center;
+    font-size: 28px;
+}

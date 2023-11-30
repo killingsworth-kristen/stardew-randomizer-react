@@ -33,6 +33,10 @@ h3 {
   font-family: "AmaticSC";
 }
 
+.page-title {
+  margin-top: 3rem;
+}
+
 .hidden {
   display: none;
 }

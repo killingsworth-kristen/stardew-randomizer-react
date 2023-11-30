@@ -1,13 +1,35 @@
 import React from "react";
+
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import './../style/AllSaves.css';
 
 import EditDeletePlayBtns from "../EditDeletePlayBtns";
 import NewSaveBtn from "../NewSaveBtn";
 
 export default function AllSaves () {
+    let navigate = useNavigate();
+
+    const [name, setName] = useState(localStorage.getItem("name"));
+
+    useEffect(() => {
+        if (name === null | name === 'null' | name === '') {
+            navigate(`/name`);
+        }
+      }, []);
+
+    function editName (e) {
+        setName(localStorage.setItem("name", null));
+        navigate(`/name`);
+    }
+
     return (
         <main>
-            <h2 className="all-saves-title">Welcome!</h2>
+            <div className="title-container">
+                <h2>{`Welcome ${name}!`}</h2>
+                <button id="edit-name-btn" onClick={editName}>Edit Name</button>
+            </div>
             <div className="grid-wrapper align-items-center">                
                 <div className="container">
                     <div className="row" id="row-1">

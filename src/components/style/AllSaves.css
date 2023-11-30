@@ -1,5 +1,15 @@
-.all-saves-title {
+.title-container {
+    display: inline-flex;
+    align-items: center;
     margin-top: 3rem;
+}
+
+#edit-name-btn {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #F28C28;
+    font-size: 28px;
 }
 
 .grid-wrapper {
