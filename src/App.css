@@ -35,6 +35,8 @@ h3 {
 
 .page-title {
   margin-top: 3rem;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 .hidden {

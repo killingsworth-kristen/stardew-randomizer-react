@@ -9,3 +9,12 @@
 .page-center {
     margin: auto;
 }
+
+.help-question {
+    text-decoration: underline;
+}
+
+.help-para {
+    font-weight: bold;
+    font-size: 20px;
+}
