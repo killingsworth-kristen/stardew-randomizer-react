@@ -159,12 +159,10 @@
                 "task": "Catch a Periwinkle"
             },
             {
-                "task": "Ship a Void Mayonaise",
-                "difficulty": "easy"
+                "task": "Ship a Void Mayonaise"
             },
             {
-                "task": "Craft a Mayonnaise Machine",
-                "difficulty": "easy"
+                "task": "Craft a Mayonnaise Machine"
             }
         ],
         "xp": [
@@ -183,8 +181,7 @@
                 "task": "Catch a Sea Cucumber"
             },            
             {
-                "task": "Cook a Tortilla",
-                "difficulty": "easy"
+                "task": "Cook a Tortilla"
             }
         ],
         "xp": [
@@ -214,8 +211,7 @@
         "task": "Cook a Pizza",
         "prereq": [
             {
-                "task": "Craft a Cheese Press",
-                "difficulty": "easy"
+                "task": "Craft a Cheese Press"
             }
         ],
         "xp": [
@@ -247,8 +243,7 @@
         "task": "Cook Glazed Yams",
         "prereq": [
             {
-                "task": "Ship a Yam",
-                "difficulty": "easy"
+                "task": "Ship a Yam"
             }
         ],
         "xp": [
@@ -321,12 +316,10 @@
                 "type": "progressive-hearts"
             },
             {
-                "task": "Cook a Tortilla",
-                "difficulty": "easy"
+                "task": "Cook a Tortilla"
             },
             {
-                "task": "Craft a Mayonnaise Machine",
-                "difficulty": "easy"
+                "task": "Craft a Mayonnaise Machine"
             },
             {
                 "task": "Catch a Tuna"
@@ -367,8 +360,7 @@
                 "type": "progressive-hearts"
             },
             {
-                "task": "Craft a Cheese Press",
-                "difficulty": "easy"
+                "task": "Craft a Cheese Press"
             }
         ],
         "xp": [
@@ -394,8 +386,7 @@
                 "type": "progressive-hearts"
             },
             {
-                "task": "Catch a Shrimp",
-                "difficulty": null
+                "task": "Catch a Shrimp"
             }
         ],
         "xp": [

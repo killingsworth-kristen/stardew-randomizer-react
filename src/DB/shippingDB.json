@@ -1,0 +1,1387 @@
+[
+    {
+        "task": "Ship a Wild Horseradish",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Daffodil",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Leek",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Dandelion",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Parsnip",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 8
+            }
+        ]
+    },
+    {
+        "task": "Ship a Cave Carrot",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Coconut",
+        "prereq": [
+            {
+                "task": "Complete Vault Bundle",
+                "type": "commuinity-center-tasks"
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Cactus Fruit",
+        "prereq": [
+            {
+                "task": "Complete Vault Bundle",
+                "type": "community-center-bundles"
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Banana",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Sap",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 13
+            }
+        ]
+    },
+    {
+        "task": "Ship a Large White Egg",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a White Egg",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a Large Brown Egg",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a Brown Egg",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Milk",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Large Milk",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a Green Bean",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 9
+            }
+        ]
+    },
+    {
+        "task": "Ship a Cauliflower",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 23
+            }
+        ]
+    },
+    {
+        "task": "Ship a Potato",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 14
+            }
+        ]
+    },
+    {
+        "task": "Ship Garlic",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Ship Kale",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 17
+            }
+        ]
+    },
+    {
+        "task": "Ship Rhubarb",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 26
+            }
+        ]
+    },
+    {
+        "task": "Ship a Melon",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 27
+            }
+        ]
+    },
+    {
+        "task": "Ship a Tomato",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Ship a Morel",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Blueberry",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 10
+            }
+        ]
+    },
+    {
+        "task": "Ship a Fiddlehead Fern",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Hot Pepper",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 9
+            }
+        ]
+    },
+    {
+        "task": "Ship Wheat",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 6
+            }
+        ]
+    },
+    {
+        "task": "Ship a Radish",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 15
+            }
+        ]
+    },
+    {
+        "task": "Ship a Red Cabbage",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 28
+            }
+        ]
+    },
+    {
+        "task": "Ship a Starfruit",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 43
+            }
+        ]
+    },
+    {
+        "task": "Ship Corn",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 10
+            }
+        ]
+    },
+    {
+        "task": "Ship Unmilled Rice",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship an Eggplant",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 12
+            }
+        ]
+    },
+    {
+        "task": "Ship an Artichoke",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 22
+            }
+        ]
+    },
+    {
+        "task": "Ship a Pumpkin",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 31
+            }
+        ]
+    },
+    {
+        "task": "Ship Bok Choy",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 14
+            }
+        ]
+    },
+    {
+        "task": "Ship a Chanterelle",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship Cranberries",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 14
+            }
+        ]
+    },
+    {
+        "task": "Ship Holly",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Beet",
+        "prereq": [
+            {
+                "task": "Complete Vault Bundle",
+                "type": "community-center-bundles"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 16
+            }
+        ]
+    },
+    {
+        "task": "Ship an Ostrich Egg",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a Salmonberry",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship Amaranth",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 21
+            }
+        ]
+    },
+    {
+        "task": "Ship a Pale Ale",
+        "prereq": [
+            {
+                "task": "Craft a Keg",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 6
+            }
+        ]
+    },
+    {
+        "task": "Ship Hops",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 6
+            }
+        ]
+    },
+    {
+        "task": "Ship a Void Egg",
+        "prereq": [
+            {
+                "task": "60 Museum Items Donated",
+                "type": "milestone-museum"
+            },
+            {
+                "task": "museum 60",
+                "types": "individual-museum"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Mayonnaise",
+        "prereq": [
+            {
+                "task": "Craft a Mayonnaise Machine"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Duck Mayonnaise",
+        "prereq": [
+            {
+                "task": "Craft a Mayonnaise Machine"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Void Mayonnaise",
+        "prereq": [
+            {
+                "task": "Craft a Mayonnaise Machine"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Clay",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Copper Bar",
+        "prereq": [
+            {
+                "task": "Craft a Furnace"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship an Iron Bar",
+        "prereq": [
+            {
+                "task": "Craft a Furnace"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship a Gold Bar",
+        "prereq": [
+            {
+                "task": "Craft a Furnace"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship an Iridium Bar",
+        "prereq": [
+            {
+                "task": "Craft a Furnace"
+            },
+            {
+                "task": "Complete Vault Bundle",
+                "type": "community-center-bundles"  
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Refined Quartz",
+        "prereq": [
+            {
+                "OR": [
+                    {
+                        "task": "Craft a Furnace"
+                    },
+                    {
+                        "task": "Craft a Recycling Machine"
+                    }
+                ]
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Honey",
+        "prereq": [
+            {
+                "task": "Craft a Beehouse",
+                "difficulty": "easy"
+            }  
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Pickles",
+        "prereq": [
+            {
+                "task": "Craft a Preserves Jar",
+                "difficulty": "easy"
+            }  
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Jelly",
+        "prereq": [
+            {
+                "task": "Craft a Preserves Jar",
+                "difficulty": "easy"
+            }  
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship a Beer",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Wine",
+        "prereq": [
+            {
+                "task": "Craft a Keg",
+                "difficulty": "easy"
+            }  
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship a Juice",
+        "prereq": [
+            {
+                "task": "Craft a Keg",
+                "difficulty": "easy"
+            }  
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship a Clam",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            },
+            {
+                "fishing": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a Poppy",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 20
+            }
+        ]
+    },
+    {
+        "task": "Ship a Copper Ore",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship an Iron Ore",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship Coal",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Gold Ore",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship an Iridium Ore",
+        "prereq": [
+            {
+                "task": "Complete Vault Bundle",
+                "type": "community-center-bundles"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Wood",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship Stone",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Nautilus Shell",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship Coral",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Rainbow Shell",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Spice Berry",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Sea Urchin",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Grape",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Spring Onion",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Strawberry",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 18
+            }
+        ]
+    },
+    {
+        "task": "Ship a Sweet Pea",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Common Mushroom",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Wild Plum",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Hazelnut",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Blackberry",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Winter Root",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Crystal Fruit",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Snow Yam",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Sweet Gem Berry",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 64
+            }
+        ]
+    },
+    {
+        "task": "Ship a Crocus",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Red Mushroom",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Sunflower",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 14
+            }
+        ]
+    },
+    {
+        "task": "Ship a Purple Mushroom",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship Cheese",
+        "prereq": [
+            {
+                "task": "Craft a Cheese Press",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Goat Cheese",
+        "prereq": [
+            {
+                "task": "Craft a Cheese Press",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Cloth",
+        "prereq": [
+            {
+                "OR": [
+                    {
+                        "task": "Craft a Loom"
+                    },
+                    {
+                        "task": "Craft a Recycling Machine"
+                    }
+                ]
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a Truffle",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship Truffle Oil",
+        "prereq": [
+            {
+                "task": "Craft an Oil Maker"
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Coffee Bean",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 4
+            }
+        ]
+    },
+    {
+        "task": "Ship Goat Milk",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Large Goat Milk",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Wool",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a Duck Egg",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship a Duck Feather",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Caviar",
+        "prereq": [
+            {
+                "task": "Catch a Sturgeon"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 87
+            }
+        ]
+    },
+    {
+        "task": "Ship a Rabbit's Foot",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Aged Roe",
+        "prereq": [
+            {
+                "fish-collection": [
+                    {
+                        "roe": true
+                    }
+                ]
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 50
+            }
+        ]
+    },
+    {
+        "task": "Ship an Ancient Fruit",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 38
+            }
+        ]
+    },
+    {
+        "task": "Ship a Mead",
+        "prereq": [
+            {
+                "task": "Craft a Keg",
+                "difficulty": "easy"
+            },
+            {
+                "task": "Craft a Beehouse",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship a Tulip",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Summer Spangle",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 15
+            }
+        ]
+    },
+    {
+        "task": "Ship a Fairy Rose",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 29
+            }
+        ]
+    },
+    {
+        "task": "Ship a Blue Jazz",
+        "prereq": null,
+        "xp": [
+            {
+                "farming": 10
+            }
+        ]
+    },
+    {
+        "task": "Ship an Apple",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship Green Tea",
+        "prereq": [
+            {
+                "task": "Craft a Keg",
+                "difficulty": "easy"
+            },
+            {
+                "task": "Befriend Caroline",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Caroline 2 hearts",
+                "type": "progressive-friendship"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship an Apricot",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship an Orange",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Peach",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Pomegrnate",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Cherry",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship Bug Meat",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 1
+            }
+        ]
+    },
+    {
+        "task": "Ship Hardwood",
+        "prereq": null,
+        "xp": [
+            {
+                "foraging": 25
+            }
+        ]
+    },
+    {
+        "task": "Ship Maple Syrup",
+        "prereq": [
+            {
+                "task": "Craft a Tapper"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Oak Resin",
+        "prereq": [
+            {
+                "task": "Craft a Tapper"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Pine Tar",
+        "prereq": [
+            {
+                "task": "Craft a Tapper"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Slime",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 3
+            }
+        ]
+    },
+    {
+        "task": "Ship Bat Wing",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 3
+            }
+        ]
+    },
+    {
+        "task": "Ship a Solar Essence",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 15
+            }
+        ]
+    },
+    {
+        "task": "Ship a Void Essence",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 15
+            }
+        ]
+    },
+    {
+        "task": "Ship fiber",
+        "prereq": null,
+        "xp": null
+    },
+    {
+        "task": "Ship a Battery Pack",
+        "prereq": [
+            {
+                "task": "Craft a Lightning Rod",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Dinosaur Mayonnaise",
+        "prereq": [
+            {
+                "task": "Craft a Mayonnaise Machine"
+            }
+        ],
+        "xp": [
+            {
+                "farming": 5
+            }
+        ]
+    },
+    {
+        "task": "Ship Roe",
+        "prereq": [
+            {
+                "fish-collection": [
+                    {
+                        "roe": true
+                    }
+                ]
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 50
+            }
+        ]
+    },
+    {
+        "task": "Ship Squid Ink",
+        "prereq": [
+            {
+                "task": "Catch a Squid",
+                "difficulty": "easy"
+            }
+        ],
+        "xp": [
+            {
+                "fishing": 52
+            },
+            {
+                "combat": 15
+            }
+        ]
+    },
+    {
+        "task": "Ship Tea Leaves",
+        "prereq": [
+            {
+                "task": "Befriend Caroline",
+                "type": "all-hearts"
+            },
+            {
+                "task": "Caroline 2 hearts",
+                "type": "progressive-friendship"
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship Ginger",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship Taro Root",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship a Pineapple",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": [
+            {
+                "farming": 30
+            }
+        ]
+    },
+    {
+        "task": "Ship a Mango",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": null
+    },
+    {
+        "task": "Ship a Cinder Shard",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": [
+            {
+                "mining": 12
+            }
+        ]
+    },
+    {
+        "task": "Ship a Magma Cap",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": [
+            {
+                "foraging": 7
+            }
+        ]
+    },
+    {
+        "task": "Ship a Bone Fragment",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 8
+            }
+        ]
+    },
+    {
+        "task": "Ship a Radioactive Ore",
+        "prereq": [
+            {
+                "task": "Enter the Walnut Room"
+            }
+        ],
+        "xp": [
+            {
+                "mining": 18
+            }
+        ]
+    },
+    {
+        "task": "Ship a Radioactive bar",
+        "prereq": [
+            {
+                "task": "Enter the Walnut Room"
+            },
+            {
+                "task": "Craft a Furnace"
+            }
+        ],
+        "xp": [
+            {
+                "mining": 90
+            }
+        ]
+    }
+]
