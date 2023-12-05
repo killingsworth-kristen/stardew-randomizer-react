@@ -24,7 +24,6 @@ export default function EditDeletePlayBtns ({saveSlotNum, empty}) {
         return;
     }
 
-    // console.log(empty);
     return (
         <div className={empty == true ? "hidden col" : "col"}>
             <button className={`edit-delete-play-btn`} onClick={editSave}>

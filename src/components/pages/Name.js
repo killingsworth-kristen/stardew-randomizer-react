@@ -7,7 +7,8 @@ import './../style/Name.css';
 
 export default function Name () {
 
-    const [name, setName] = useState('');
+    let storageName = localStorage.getItem("name");
+    const [name, setName] = useState(storageName);
 
     const navigate = useNavigate()
 

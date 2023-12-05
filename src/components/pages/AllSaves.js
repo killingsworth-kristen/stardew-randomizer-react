@@ -44,7 +44,7 @@ export default function AllSaves () {
       },[]);
 
     function editName (e) {
-        setName(localStorage.setItem("name", null));
+        // setName(localStorage.setItem("name", null));
         navigate(`/name`);
     }
 
@@ -64,10 +64,8 @@ export default function AllSaves () {
 
     function isSaveEmpty (savePercent) {
         if (savePercent == "Empty") {
-            console.log(savePercent, "true");
             return true;
         } else {
-            console.log(savePercent, "false");
             return false;
         }
     }
