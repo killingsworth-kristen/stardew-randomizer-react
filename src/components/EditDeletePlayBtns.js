@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
-export default function EditDeletePlayBtns ({saveSlotNum}) {
+export default function EditDeletePlayBtns ({saveSlotNum, empty}) {
     const navigate = useNavigate()
 
     function editSave (e) {
@@ -24,17 +24,18 @@ export default function EditDeletePlayBtns ({saveSlotNum}) {
         return;
     }
 
+    // console.log(empty);
     return (
-        <div className="col">
-        <button className={`edit-delete-play-btn`} onClick={editSave}>
-            <img className="edit-delete-play-btn-icon" id={`save-slot-${saveSlotNum}-edit`} src="/assets/icons/edit.svg" alt="edit save"/>
-        </button>
-        <button className={`edit-delete-play-btn`} onClick={deleteSave}>
-            <img className="edit-delete-play-btn-icon" id={`save-slot-${saveSlotNum}-delete`} src="/assets/icons/delete.svg" alt="delete save"/>
-        </button>
-        <button className={`edit-delete-play-btn`} onClick={openSave}>
-            <img className="edit-delete-play-btn-icon" id={`save-slot-${saveSlotNum}-play`} src="/assets/icons/play.svg" alt="open/play save" />
-        </button>
-    </div>
+        <div className={empty == true ? "hidden col" : "col"}>
+            <button className={`edit-delete-play-btn`} onClick={editSave}>
+                <img className="edit-delete-play-btn-icon" id={`save-slot-${saveSlotNum}-edit`} src="/assets/icons/edit.svg" alt="edit save"/>
+            </button>
+            <button className={`edit-delete-play-btn`} onClick={deleteSave}>
+                <img className="edit-delete-play-btn-icon" id={`save-slot-${saveSlotNum}-delete`} src="/assets/icons/delete.svg" alt="delete save"/>
+            </button>
+            <button className={`edit-delete-play-btn`} onClick={openSave}>
+                <img className="edit-delete-play-btn-icon" id={`save-slot-${saveSlotNum}-play`} src="/assets/icons/play.svg" alt="open/play save" />
+            </button>
+        </div>
     )
 }
