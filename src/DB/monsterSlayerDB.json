@@ -1,0 +1,129 @@
+[
+    {
+        "task": "Slay 1000 Slimes",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 3000
+            }
+        ]
+    },
+    {
+        "task": "Slay 150 Void Spirits",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 2250
+            }
+        ]
+    },
+    {
+        "task": "Slay 200 Bats",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 600
+            }
+        ]
+    },
+    {
+        "task": "Slay 50 Skeletons",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 400
+            }
+        ]
+    },
+    {
+        "task": "Slay 125 Cave Insects",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 125
+            }
+        ]
+    },
+    {
+        "task": "Slay 30 Duggies",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 300
+            }
+        ]
+    },
+    {
+        "task": "Slay 500 Dust Sprites",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 1000
+            }
+        ]
+    },
+    {
+        "task": "Slay 60 Rock Crabs",
+        "prereq": null,
+        "xp": [
+            {
+                "combat": 240
+            }
+        ]
+    },
+    {
+        "task": "Slay 100 Mummies",
+        "prereq": [
+            {
+                "task": "Complete Vault Bundle",
+                "type": "community-center-bundles"
+            }
+        ],
+        "xp": [
+            {
+                "combat": 2000
+            }
+        ]
+    },
+    {
+        "task": "Slay 50 Pepper Rex",
+        "prereq": [
+            {
+                "task": "Complete Vault Bundle",
+                "type": "community-center-bundles"
+            }
+        ],
+        "xp": [
+            {
+                "combat": 350
+            }
+        ]
+    },
+    {
+        "task": "Slay 250 Serpent",
+        "prereq": [
+            {
+                "task": "Complete Vault Bundle",
+                "type": "community-center-bundles"
+            }
+        ],
+        "xp": [
+            {
+                "combat": 5000
+            }
+        ]
+    },
+    {
+        "task": "Slay 150 Magma Sprites",
+        "prereq": [
+            {
+                "community-center-complete": true
+            }
+        ],
+        "xp": [
+            {
+                "combat": 2250
+            }
+        ]
+    }
+]
