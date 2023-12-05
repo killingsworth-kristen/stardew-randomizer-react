@@ -1,0 +1,17 @@
+.edit-delete-play-btn {
+    margin: 0 4px;
+}
+
+.edit-delete-play-btn-icon {
+    width: 42px;
+    height: 42px;
+}
+
+.tooltip-text {
+    margin: 0;
+    width: 42px;
+    height: 42px;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: var(--frame-edge);
+}

@@ -19,7 +19,6 @@ export default function Name () {
 
     function handleSubmit (e) {
         e.preventDefault();
-        console.log("handleSubmit");
         localStorage.setItem("name", name);
         navigate(`/`);
     }
