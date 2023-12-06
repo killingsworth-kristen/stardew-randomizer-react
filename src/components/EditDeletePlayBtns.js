@@ -18,31 +18,26 @@ export default function EditDeletePlayBtns ({saveSlotNum, empty}) {
     const [playHover, setPlayHover] = useState(false);
 
     useEffect(() => {
-        showTooltip();
+        showHideTooltip();
       }, [editHover, deleteHover, playHover]);
 
 
-    function editSave (e) {
-        let saveSlot = e.target.id.split("-edit")[0];
-        // console.log(saveSlot)
-        navigate(`/edit`);
+    function editSave () {
+        navigate(`/edit/save-slot-${saveSlotNum}`);
         return;
     }
 
-    function deleteSave (e) {
-        let saveSlot = e.target.id.split("-delete")[0];
-        console.log(saveSlot)
+    function deleteSave () {
+        console.log("Delete function WIP");
         return;
     }
 
-    function openSave (e) {
-        let saveSlot = e.target.id.split("-play")[0];
-        // console.log(saveSlot)
-        navigate(`/${saveSlot}`);
+    function openSave () {
+        navigate(`/save-slot-${saveSlotNum}`);
         return;
     }
 
-    function showTooltip () {
+    function showHideTooltip () {
         if (editHover === true) {
             setEditTextShow(true);
             setEditIconShow(false);
@@ -70,15 +65,15 @@ export default function EditDeletePlayBtns ({saveSlotNum, empty}) {
     return (
         <div className={empty == true ? "hidden col" : "col"}>
             <button className={`edit-delete-play-btn`} onClick={editSave} onMouseEnter={() => {setEditHover(true)}} onMouseLeave={() => {setEditHover(false)}}>
-                <p className={editTextShow === true ? "tooltip-text" : "tooltip-text hidden"}>Edit</p>
+                <p className={editTextShow === true ? "tooltip-text" : "tooltip-text hidden"} onClick={editSave}>Edit</p>
                 <img className={editIconShow === true ? "edit-delete-play-btn-icon": "edit-delete-play-btn-icon hidden"} id={`save-slot-${saveSlotNum}-edit`} src="/assets/icons/edit.svg" alt="edit save"/>
             </button>
             <button className={`edit-delete-play-btn`} onClick={deleteSave} onMouseEnter={() => {setDeleteHover(true)}} onMouseLeave={() => {setDeleteHover(false)}}>
-                <p className={deleteTextShow === true ? "tooltip-text" : "tooltip-text hidden"}>Delete</p>
+                <p className={deleteTextShow === true ? "tooltip-text" : "tooltip-text hidden"} onClick={deleteSave}>Delete</p>
                 <img className={deleteIconShow === true ? "edit-delete-play-btn-icon": "edit-delete-play-btn-icon hidden"} id={`save-slot-${saveSlotNum}-delete`} src="/assets/icons/delete.svg" alt="delete save"/>
             </button>
             <button className={`edit-delete-play-btn`} onClick={openSave} onMouseEnter={() => {setPlayHover(true)}} onMouseLeave={() => {setPlayHover(false)}}>
-                <p className={playTextShow === true ? "tooltip-text" : "tooltip-text hidden"}>Play</p>
+                <p className={playTextShow === true ? "tooltip-text" : "tooltip-text hidden"} onClick={openSave}>Play</p>
                 <img className={playIconShow === true ? "edit-delete-play-btn-icon": "edit-delete-play-btn-icon hidden"} id={`save-slot-${saveSlotNum}-play`} src="/assets/icons/play.svg" alt="open/play save" />
             </button>
         </div>

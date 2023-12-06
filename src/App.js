@@ -9,7 +9,9 @@ import Name from './components/pages/Name';
 import AllSaves from './components/pages/AllSaves';
 import NewSaveForm from './components/pages/NewSaveForm';
 import NewSavePreview from './components/pages/NewSavePreview';
-import EditSave from './components/pages/EditSave';
+import EditSaveSlot1 from './components/pages/EditSaveSlot1';
+import EditSaveSlot2 from './components/pages/EditSaveSlot2';
+import EditSaveSlot3 from './components/pages/EditSaveSlot3';
 import SaveSlot1 from './components/pages/SaveSlot1';
 import SaveSlot2 from './components/pages/SaveSlot2';
 import SaveSlot3 from './components/pages/SaveSlot3';
@@ -36,7 +38,9 @@ function App() {
             <Route path='/save-slot-1' element={<SaveSlot1 />}/>
             <Route path='/save-slot-2' element={<SaveSlot2 />}/>
             <Route path='/save-slot-3' element={<SaveSlot3 />}/>
-            <Route path='/edit' element={<EditSave />}/>
+            <Route path='/edit/save-slot-1' element={<EditSaveSlot1 />}/>
+            <Route path='/edit/save-slot-2' element={<EditSaveSlot2 />}/>
+            <Route path='/edit/save-slot-3' element={<EditSaveSlot3 />}/>
             <Route path='/help' element={<Help />}/>
             <Route path='/about' element={<About />}/>
           </Routes>

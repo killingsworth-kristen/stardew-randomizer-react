@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function EditSave () {
+export default function EditSaveSlot1 () {
     return (
         <main>
             <h2>Edit Save Name</h2>
