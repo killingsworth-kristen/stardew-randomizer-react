@@ -7,10 +7,18 @@ export default function SaveSlot1 () {
     // saveSlot1.completedGoals | 
 
     // TEST STORAGE
-
-    
     // localStorage.setItem("save-slot-1-available",JSON.stringify([{"task":"Test 1","prereq":"Test 2","complete":false},{"task":"Test 2","prereq":"Test 4","complete":false},{"task":"Test 8","prereq":null,"complete":true},{"task":"Test 3","prereq":null,"complete":true},{"task":"Test 7","prereq":null,"complete":true}]));
     // localStorage.setItem("save-slot-1-complete",JSON.stringify([{task: "Test 4", prereq: null, complete: true},{task: "Test 5", prereq: null, complete: true},{task: "Test 6", prereq: null, complete: true}]));
+    let EXPlevels = [100, 380, 770, 1300, 2150, 3300, 4800, 6900, 10000, 15000];
+    let fishingPoints = 0;
+    let farmingPoints = 0;
+    let combatPoints = 0;
+    let foragingPoints = 0;
+    let minigPoints = 0;
+
+    // on task generation check for exp
+    // if exp exists will tempExp >= next EXPlevel
+    // reroll goal
 
     let availableGoals = JSON.parse(localStorage.getItem("save-slot-1-available"));
     let completedGoals = JSON.parse(localStorage.getItem("save-slot-1-complete"));
