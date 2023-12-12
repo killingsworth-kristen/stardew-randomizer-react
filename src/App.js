@@ -34,7 +34,9 @@ function App() {
           <Routes>
             <Route path='/name' element={<Name />}/>
             <Route path='/' element={< AllSaves />} />
-            <Route path='/new-save' element={<NewSaveForm />}/>
+            <Route path='/new-save-slot-1' element={<NewSaveForm />}/>
+            <Route path='/new-save-slot-2' element={<NewSaveForm />}/>
+            <Route path='/new-save-slot-3' element={<NewSaveForm />}/>
             <Route path='/new-save/preview' element={<NewSavePreview />}/>
             <Route path='/save-slot-1' element={<SaveSlot1 />}/>
             <Route path='/save-slot-2' element={<Save />}/>
