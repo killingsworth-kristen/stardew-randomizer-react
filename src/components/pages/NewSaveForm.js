@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import NewSavePreview from "./NewSavePreview.js";
 
+import "./../style/NewSaveForm.css"
+
 export default function NewSaveForm () {
 
     const [file, setFile] = useState();
@@ -70,9 +72,9 @@ export default function NewSaveForm () {
         <main>
             <h2>New Save Form</h2>
             <div>
-                <form onSubmit={handleOnSubmit}>
+                <form onSubmit={handleOnSubmit} id="import-form">
                     <input type="file" id="csv-file" onChange={handleOnChange}></input>
-                    <button type="submit">Import Existing File from Google Sheets</button>
+                    <button type="submit" id="submit-import">Import Existing File from Google Sheets</button>
                 </form>
                 <NewSavePreview array={array}/>
                 {/* <table>
@@ -94,12 +96,6 @@ export default function NewSaveForm () {
                     ))}
                     </tbody>
                 </table> */}
-                <div>
-                    <form>
-                        <label htmlFor="save-name">Name Your Save (optional):</label>
-                        <input type="text" id="save-name" name="save-name"></input>
-                    </form>
-                </div>
             </div>
         </main>
     )

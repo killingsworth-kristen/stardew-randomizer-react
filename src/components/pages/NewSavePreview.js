@@ -9,6 +9,7 @@ export default function NewSavePreview ({array}) {
 
     const [saveName, setSaveName] = useState(location);
     const [customPrereqValue, setCustomPrereqValue] = useState("");
+    const [customMainValue, setCustomMainvalue] = useState("");
     // const [customPrereqVisible, setCustomPrereqVisible] = useState(false);
 
     function handleNameChange (e) {
@@ -19,29 +20,20 @@ export default function NewSavePreview ({array}) {
         setCustomPrereqValue(e.target.value);
     }
 
+    function handleCustomMainChange (e) {
+        setCustomMainvalue(e.target.value);
+    }
+
     function addPrereq (e) {
         e.preventDefault();
-        console.log(e.target);
-        console.log(e.target.parentNode.parentNode.parentNode);
         let mainTaskContainer = e.target.parentNode.parentNode.parentNode.children[0].children[0];
         let mainTaskIndex = mainTaskContainer.id.split("-")[2];
-        console.log(mainTaskIndex);
         let customPrereqForm = e.target.parentNode.children[0];
-        let customPrereqList = e.target.parentNode.parentNode;
         if (customPrereqForm.classList.contains("hidden")) {
             customPrereqForm.classList.remove("hidden");
             return;
         } else {
             customPrereqForm.classList.add("hidden");
-            // let newPrereq = document.createElement("div");
-            // newPrereq.innerHTML = 
-            //     `
-            //         <input type="checkbox" value="${customPrereqValue}" checked></input>
-            //         <label>${customPrereqValue}</label>
-            //     `
-            // newPrereq.classList.add("prereq-checkbox");
-            // customPrereqList.append(newPrereq);
-            // console.log(array[mainTaskIndex]);
             if (array[mainTaskIndex].Prerequisites === "") {
                 array[mainTaskIndex].Prerequisites = [customPrereqValue];
             } else {
@@ -53,17 +45,45 @@ export default function NewSavePreview ({array}) {
         }
     }
 
-    function addNewTask () {
-
+    function addNewTask (e) {
+        e.preventDefault();
+        // console.log(e.target.parentNode.parentNode.children);
+        let customMainForm = e.target.parentNode.children[0];
+        if (customMainForm.classList.contains("hidden")) {
+            customMainForm.classList.remove("hidden");
+            return;
+        } else {
+            customMainForm.classList.add("hidden");
+            console.log(array);
+            let reversedArry = array.reverse();
+            reversedArry.push({Task: customMainValue, key: (array.length - 1), complete: false, completeDate: null, Prerequisites: ''});
+            array = reversedArry.reverse();
+            setCustomMainvalue("");
+            return;
+        }
     }
+
+    function handleBuildSave (e) {
+        e.preventDefault();
+    }
+
+    // document.addEventListener(SubmitEvent, (e) => {
+    //     e.preventDefault();
+    // }
 
     return (
         <main>
             <h2>New Save Preview</h2>
-            <form id="save-preview-form">
+            <form id="save-preview-form" onSubmit={handleBuildSave}>
                 <label htmlFor="save-name">Edit Save Name (optional)</label>
                 <input type="text" value={saveName} onChange={handleNameChange} name="save-name"></input>
-                <button id="add-main-task-btn" onClick={addNewTask}>Add Task</button>
+                <div className="custom-main-adder">
+                    <div className="custom-main-form hidden">
+                        <label htmlFor={`custom-main-${array.length}`} >Custom Task: </label>
+                        <input type="text" name={`custom-main-${array.length}`} id={`custom-main-${array.length}`} value={customMainValue} onChange={handleCustomMainChange}></input>
+                    </div>
+                    <button id="add-main-task-btn" onClick={addNewTask}>Add Task</button>
+                </div>
                 {array.map((i)=>{
                     let required = false;
                     let prereq = "";
