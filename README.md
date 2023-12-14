@@ -4,7 +4,7 @@ A website to help create extra challenges in your Stardew valley Perfection Jour
 
 ## Usage
 
-You must make an account in order to use the website (login is tied to google OAuth). Once you are logged in, you have five "save slots" to create, edit, and delete your randomized perfection runs. 
+Everything is saved to the browser. If you clear your site data/local storage, then your data will be erased. There is no login, or server connection. 
 
 ### Starting a New Save
 
