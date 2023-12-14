@@ -13,6 +13,7 @@ import EditSaveSlot1 from './components/pages/EditSaveSlot1';
 import EditSaveSlot2 from './components/pages/EditSaveSlot2';
 import EditSaveSlot3 from './components/pages/EditSaveSlot3';
 import Save from './components/pages/Save';
+import Credits from './components/pages/Credits';
 import SaveSlot1 from './components/pages/SaveSlot1';
 import SaveSlot2 from './components/pages/SaveSlot2';
 import SaveSlot3 from './components/pages/SaveSlot3';
@@ -34,6 +35,7 @@ function App() {
           <Routes>
             <Route path='/name' element={<Name />}/>
             <Route path='/' element={< AllSaves />} />
+            <Route path='/credits' element={<Credits />} />
             <Route path='/new-save-slot-1' element={<NewSaveForm />}/>
             <Route path='/new-save-slot-2' element={<NewSaveForm />}/>
             <Route path='/new-save-slot-3' element={<NewSaveForm />}/>

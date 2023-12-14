@@ -86,15 +86,18 @@ export default function NewSavePreview ({array}) {
                 </div>
                 {array.map((i)=>{
                     let required = false;
+                    let disabled = false;
                     let prereq = "";
                     // console.log(i.Prerequisites);
 
                     // All tasks required for perfection are required (cannot bu unchecked on accident)
                     if (i.Task.includes("Ship") | i.Task.includes("Cook ") | i.Task.includes("Befriend") | i.Task.includes("Stardrop") | i.Task.includes("Slay") | i.Task.includes("Obelisk") | i.Task.includes("Craft") | i.Task.includes("Catch") | i.Task.includes("Finish Golden Walnuts")) {
                         required = true;
-                    } else {
-                        console.log(i.Task);
-                    }
+                    } 
+
+                    if (i.complete === true) {
+                        disabled = true;
+                    } 
 
                     // Handle Prerequisites
                     if (i.Prerequisites === "" | i.Prerequisites == "null") {
@@ -105,19 +108,19 @@ export default function NewSavePreview ({array}) {
                         prereq = i.Prerequisites;
                     }
                     return (
-                        <div className="main-checkbox-container">
+                        <div className={disabled === true ? "main-checkbox-container disabled" : "main-checkbox-container"}>
                             <div className="main-checkbox">
                                 <input type="checkbox" value={i.Task} name={`input-main-${i.key}`} id={`input-main-${i.key}`} key={`input-main-${i.key}`} defaultChecked="true" disabled={required}></input>
                                 <label htmlFor={`input-main-${i.key}`} key={`label-main-${i.key}`}>{i.Task}</label>
                             </div>
                             <div className="prereq-checkbox-container">
-                                <h6>Prerequisites:</h6>
+                                <h6 className="prereq-h6">Prerequisites:</h6>
                                 <div className="custom-prereq-adder">
                                     <div className="custom-prereq-form hidden">
                                         <label htmlFor={`custom-prerequisite-task-${i.key}`} id={`custom-prerequisite-label-${i.key}`} key={`custom-prerequisite-label-${i.key}`}>Custom Prerequisite: </label>
                                         <input type="text" name={`custom-prerequisite-task-${i.key}`} id={`custom-prerequisite-task-${i.key}`} key={`custom-prerequisite-task-${i.key}`} value={customPrereqValue} onChange={handleCustomPrereqChange}></input>
                                     </div>
-                                    <button className="add-prereq-btn" onClick={addPrereq}>Add</button>
+                                    <button className="add-prereq-btn" onClick={addPrereq} disabled={disabled}>Add</button>
                                 </div>
                                 <div className="prereq-checkbox">
                                     <input type="checkbox" value={prereq} disabled={prereq === "None" ? true : false} defaultChecked="true"></input>

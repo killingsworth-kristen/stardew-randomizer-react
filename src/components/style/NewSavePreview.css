@@ -54,6 +54,11 @@
     border-right: 1px solid var(--frame-text);
 }
 
+.prereq-h6 {
+    text-align: start;
+    margin-left: 5rem;
+}
+
 .add-prereq-btn {
     width: fit-content;
     padding: 0.5rem;
@@ -80,6 +85,10 @@
     text-align: start;
     padding-left: 5rem;
     padding: 0.5rem 0.5rem 0.5rem 5rem;
+}
+
+.disabled {
+    background-color: #969696;
 }
 
 /* .hidden {

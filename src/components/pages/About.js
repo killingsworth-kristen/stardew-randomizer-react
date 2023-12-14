@@ -8,7 +8,7 @@ export default function About () {
             <h2 className="page-title">About</h2>
             <div className="about-para-container">
                 <p className="about-para">
-                    All credit for this idea should go to ArgonMatrix who created the original Stardew Valley Perfection Randomizer in Google Sheets. You should definitely chack out his content on Youtube and check out his Randomizer VODs. 
+                    All credit for this idea should go to ArgonMatrix who created the original Stardew Valley Perfection Randomizer in Google Sheets. You should definitely check out his content on Youtube and check out his Randomizer VODs. 
                 </p>
 
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=vhIwUqmNx5pux9ht&amp;list=PL6-AYSf47-FsBiWANzLoaIMuTjs3k-XIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

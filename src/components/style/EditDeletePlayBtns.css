@@ -8,10 +8,17 @@
 }
 
 .tooltip-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     width: 42px;
     height: 42px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 13px;
     background-color: var(--frame-edge);
+}
+
+.hidden {
+    display: none;
 }

@@ -4,12 +4,15 @@
     color: black;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
 .nav {
     background-color: #F28C28;
     /* background-color: var(--frame-edge); */
     position: absolute;
+    z-index: 1;
     right: 0;
     /* padding: 1rem; */
     display: flex;
